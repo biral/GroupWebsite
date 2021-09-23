@@ -1,0 +1,178 @@
+/* The reference is w3schools CSS tutorial */
+
+body {
+	margin: 0;
+	background-color: #f5e0c3;
+	font-family: Gill Sans, cursive;
+	font-size: 20px;
+}
+
+div.header {
+	background-color: #c9a470;
+	margin:auto;
+	width: 1200px;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+	overflow: hidden;
+	background-color: #D18F3A;
+	width: 1200px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #c9a470;
+}
+
+.active {
+    background-color: #99370A;
+}
+
+.column {
+	float: left;
+	padding: 0;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Oleo Script', cursive;
+	text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+	color: #99370A;
+}
+
+.column.side {
+	width: 200px;
+}
+
+.column.middle {
+	width: 60%;
+}
+
+.column.left {
+	width: 600px;
+}
+
+.column.right {
+	width: 600px;
+}
+
+.column.R {
+	width: 30%;
+}
+
+.column.L {
+	width: 70%;
+	font-size: 16px;
+}
+
+.edu {
+	padding-left: 20px;
+	color: #99370A;
+	font-size: 16px;
+}
+
+th {
+	background-color: #D18F3A;
+	color: white;
+	padding: 5px;
+}
+
+.tabletitle {
+	background-color: #99370A;
+}
+
+td {
+	padding: 5px;
+}
+
+td:hover {
+	background-color: white;
+}
+
+.header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+div.main {
+	font-size: 32px;
+	background-color: #f5e0c3;
+	color: #5c1407;
+	margin: auto;
+	width: 1200px;
+}
+
+.mainpic {
+    height: 400px;
+}
+
+.mainpic:hover img {
+	opacity: 0.5;
+}
+
+.mainpic:hover .btn {
+	opacity: 1;
+}
+
+.btn:hover {
+	background-color: #99370A;
+}
+
+.btn {
+	position: relative;
+    top: -220px;
+    left: 50%;
+	transform: translate(-50%);
+    background-color: #D18F3A;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+	opacity: 0;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.intro {
+    height: 400px;
+	text-align: center;
+}
+
+img {
+	display: block;
+}
+
+p {
+	margin: 0;
+}
+
+h2 {
+	color: #5c1407
+}
+
+div.footer {
+	background-color: #D18F3A;
+	padding: 12px;
+	text-align: center;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	margin-left: 17.5%;
+    width: 1200px;
+}

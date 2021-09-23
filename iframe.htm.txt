@@ -1,0 +1,26 @@
+<html><script type="text/javascript" src="javascript.js"></script>
+<div class="main">
+<h2>Latest NEWS</h2>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="img1.jpg" style="width:100%">
+  <div class="text">Scientists using US intel pic to restore ‘Ganga of the past’ 
+
+Read more at:
+//economictimes.indiatimes.com/articleshow/66647124.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img2.jpg" style="width:100%">
+  <div class="text">Global Mapper SDK updated for greater geospatial intelligence</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img3.jpg" style="width:100%">
+  <div class="text">NASA program for UAVs in cities turns to NextNav</div>
+</div>
+
+</div>
+</div>
+</html>

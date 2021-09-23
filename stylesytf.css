@@ -1,0 +1,108 @@
+/* The reference is w3schools CSS tutorial */
+
+body {
+	margin: 0;
+	background-color: #f5e0c3;
+	font-family: Gill Sans, cursive;
+	font-size: 20px;
+	padding-bottom:60px; 
+}
+
+div.header {
+	background-color: #c9a470;
+	
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	background-color: #D18F3A;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+	text-decoration: none;
+}
+ul.navbar li a:hover:not(.active) {
+    background-color: #c9a470;
+}
+ul.navbar li a.active {
+    background-color: #99370A;
+}
+
+.column {
+	float: left;
+	padding: 10px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Oleo Script', cursive;
+	text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+	color: #99370A;
+}
+
+.column.side {
+	width: 200px;
+}
+
+.column.middle {
+	width: 60%;
+}
+
+.header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.main {
+	font-size: 20px;
+	background-color: #f5e0c3;
+	color: #5c1407;
+	padding-bottom:60px; 
+	
+}
+h2 {
+	color: #5c1407
+}
+
+/*list*/
+ul {
+	list-style-type: circle;}
+li {
+	margin: 10px}
+ul.services{
+	list-style-position: outside;
+
+}
+img.medium {
+	width: 500px;
+	height: 300px;
+}
+img.small {
+	width: 250px;
+	height: 200px;
+
+	
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	text-align: center;
+	bottom: 0; 
+	width: 100%;background-color: #D18F3A;
+	height:60px;
+	color: white;
+	
+}
